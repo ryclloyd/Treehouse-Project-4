@@ -449,31 +449,6 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_buttons.scss */
-.default {
-  background-color: #58e1c1;
-}
-
-/* line 19, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_buttons.scss */
-.error {
-  background-color: #e4757a;
-}
-
-/* line 23, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_buttons.scss */
-.info {
-  background-color: #927bc1;
-}
-
-/* line 27, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_buttons.scss */
-.success {
-  background-color: #63cc82;
-}
-
-/* line 31, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_buttons.scss */
-.warning {
-  background-color: #fd7856;
-}
-
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
@@ -513,7 +488,7 @@ a {
   flex-direction: column;
 }
 
-/* line 12, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_navigation.scss */
+/* line 10, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -523,7 +498,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_navigation.scss */
+/* line 20, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -542,8 +517,8 @@ a {
   max-height: 100%;
 }
 
-/* line 14, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_images.scss */
-.img-frame {
+/* line 8, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_images.scss */
+.img-avatar-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -553,8 +528,8 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_images.scss */
-.img-logo {
+/* line 13, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_images.scss */
+.img-avatar-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -652,7 +627,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (mad-width: 768px) {
   /* line 6, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
   .container {
     max-width: 1400px;
@@ -735,19 +710,19 @@ a {
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 88, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
+  /* line 86, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
-  /* line 92, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
+  /* line 91, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
-  /* line 96, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
-  .btn + .btn {
+  /* line 93, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
+  .btn.btn {
     margin-left: 10px;
   }
-  /* line 100, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
+  /* line 98, D:/Web Dev/Treehouse/Treehouse-Project-4/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
