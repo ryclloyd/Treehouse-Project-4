@@ -1,21 +1,3 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-
-$button-colors: (
-	'default': $prime-color,
-	'success': $btn-green, 
-	'error': $btn-red,
-	'info': $btn-purple,
-	'warning': $btn-orange
-);

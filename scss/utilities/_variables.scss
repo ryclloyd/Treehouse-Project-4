@@ -26,6 +26,16 @@ $grid-red: #ec9fa3;			// col-7
 $grid-orange: #fd9f85;		  // col-8
 
 
+// Button Map --------------------------- //
+
+$button-colors: (
+	'default': $prime-color,
+	'success': $btn-green, 
+	'error': $btn-red,
+	'info': $btn-purple,
+	'warning': $btn-orange
+);
+
 /* ============================================= */
 /*              Media Query Breakpoint                      */
 /* ============================================= */

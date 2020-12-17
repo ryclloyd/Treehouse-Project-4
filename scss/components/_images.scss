@@ -1,21 +1,3 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-
-.img-avatar {
-	@include img-block;
-	max-height: 100%;
-		&-frame {
-		@include img-block;
-		padding: 13px;
-		border: 1px solid $lt-grey;
-		}
-		&-logo {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		}
-}
-
-
-
