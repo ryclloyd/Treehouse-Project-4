@@ -9,24 +9,49 @@
 	  padding: 10px 0;
 	  text-transform: uppercase;
 	  border-radius: 5px;	
+	transition-duration: .4s;
 }
 
 .default {
-  	background-color: $second-color;
-}
-
-.error {
- 	background-color: $btn-red;
-}
-
-.info {
- 	background-color: $btn-purple;
+  	background-color: $btn-blue;
+		&:hover {
+			color: $txt-grey;
+			background-color: $blue-light;
+			transform: rotateX(15%);
+		} 
 }
 
 .success {
  	background-color: $btn-green;
+			&:hover {
+			color: $txt-grey;
+			background-color: $green-light;
+		}
+}
+
+.error {
+ 	background-color: $btn-red;
+			&:hover {
+			color: $txt-grey;
+			background-color: $red-light;
+		}
 }
 
 .warning {
  	background-color: $btn-orange;
+			&:hover {
+			color: $txt-grey;
+			background-color: $orange-light;
+		}
 }
+
+.info {
+ 	background-color: $btn-purple;
+			&:hover {
+			color: $txt-grey;
+			background-color: $purple-light;
+		}
+}
+
+
+

@@ -11,10 +11,12 @@ $lt-grey: #ccc;
 $white: #fff;
 
 // Buttons Colors --------------------------- 
-$btn-green: #63cc82;
-$btn-red: #e4757a;
-$btn-orange: #fd7856;
-$btn-purple: #927bc1;
+$btn-blue: #51ddfc;		// Default
+$btn-green: #63cc82;  		// Success
+$btn-red: #e4757a;		// Error
+$btn-orange: #fd7856;		// Warning
+$btn-purple: #927bc1;		// Info
+
 
 // Grid Colors --------------------------- //  
 $grid-teal: #80e8d1;			// col-12
@@ -34,13 +36,28 @@ $break-tablet: '(min-width: 768px)';
 
 
 /* ============================================= */
-/*              Nav Color Function                      */
+/*              Color Functions                      */
 /* ============================================= */
-
+// Main-Nav --------------------------- //  
 $base: #58e1c1;	
 $base-light: lighten($base, 15%);
 
-
+// Buttons --------------------------- //  
+// Default
+$blue: #51ddfc;
+$blue-light: lighten($blue, 15%);
+// Success
+$green: #63cc82;
+$green-light: lighten($green, 15%);
+// Error
+$red: #e4757a;
+$red-light: lighten($red, 15%);
+// Warning
+$orange: #fd7856;
+$orange-light: lighten($orange, 15%);
+// Info
+$purple: #927bc1;
+$purple-light: lighten($purple, 15%);
 
 
 
