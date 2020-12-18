@@ -2,8 +2,68 @@
 /* Sub-Folder Imports */
 /* ============================================= */
 /* ============================================= */
+/* Utilities Imports */
+/* ============================================= */
+/* ============================================= */
+/*              Colors                       */
+/* ============================================= */
+/* ============================================= */
+/*              Media Query Breakpoint                      */
+/* ============================================= */
+/* ============================================= */
+/*              Nav Color Function                      */
+/* ============================================= */
+/* ============================================= */
+/* Sub-Folder Imports */
+/* ============================================= */
+/* ============================================= */
 /* Base Imports */
 /* ============================================= */
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -344,63 +404,6 @@ template {
 }
 
 /* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-* {
-  font-family: 'Lato', sans-serif;
-  color: #777;
-  box-sizing: border-box;
-}
-
-p {
-  line-height: 1.45em;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* ============================================= */
-/*              Typography                       */
-/* ============================================= */
-.headline-primary {
-  color: #58e1c1;
-  margin-left: 10px;
-}
-
-.headline-secondary {
-  font-weight: 300;
-  color: #777;
-}
-
-.link {
-  color: #51ddfc;
-  font-weight: 700;
-}
-
-.blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
-  margin-left: 20px;
-  padding-left: 20px;
-  border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
-
-/* ============================================= */
-/* Utilities Imports */
-/* ============================================= */
-/* ============================================= */
-/*              Colors                       */
-/* ============================================= */
-/* ============================================= */
-/*              Media Query Breakpoint                      */
-/* ============================================= */
-/* ============================================= */
-/* Sub-Folder Imports */
-/* ============================================= */
-/* ============================================= */
 /* Components Imports */
 /* ============================================= */
 /* ============================================= */
@@ -414,6 +417,26 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+.default {
+  background-color: #51ddfc;
+}
+
+.error {
+  background-color: #e4757a;
+}
+
+.info {
+  background-color: #927bc1;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.warning {
+  background-color: #fd7856;
 }
 
 /* ============================================= */
@@ -458,36 +481,35 @@ a {
   display: block;
   width: 100%;
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition-duration: .6s;
 }
 
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #99edd9;
 }
 
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-.img-avatar {
+.img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
+}
+
+.img-avatar {
   max-height: 100%;
 }
 
-.img-avatar-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
+.img-frame {
   padding: 13px;
   border: 1px solid #ccc;
 }
 
-.img-avatar-logo {
+.img-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -569,7 +591,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .container {
     max-width: 1400px;
     display: block;
@@ -640,7 +662,7 @@ a {
   .btn {
     padding: 10px 30px;
   }
-  .btn.btn {
+  .btn + .btn {
     margin-left: 10px;
   }
   .logo {

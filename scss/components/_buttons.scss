@@ -1,3 +1,32 @@
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+.btn {
+	  margin-top: 15px;
+	  width: 100%;
+	  color: $white;
+	  border: none;
+	  padding: 10px 0;
+	  text-transform: uppercase;
+	  border-radius: 5px;	
+}
+
+.default {
+  	background-color: $second-color;
+}
+
+.error {
+ 	background-color: $btn-red;
+}
+
+.info {
+ 	background-color: $btn-purple;
+}
+
+.success {
+ 	background-color: $btn-green;
+}
+
+.warning {
+ 	background-color: $btn-orange;
+}

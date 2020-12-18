@@ -5,7 +5,7 @@
 $prime-color: #58e1c1;		// teal green
 $second-color: #51ddfc;		// light blue
 
-// BW & Grey --------------------------- 
+// BW & Grey ---------------------------  // START HERE
 $txt-grey: #777;
 $lt-grey: #ccc;
 $white: #fff;
@@ -16,7 +16,7 @@ $btn-red: #e4757a;
 $btn-orange: #fd7856;
 $btn-purple: #927bc1;
 
-// Grid Colors --------------------------- //
+// Grid Colors --------------------------- //  
 $grid-teal: #80e8d1;			// col-12
 $grid-dkgreen: #4da2bb;		// col-6
 $grid-ltblue: #7ee6fd;			// col-4
@@ -26,27 +26,19 @@ $grid-red: #ec9fa3;			// col-7
 $grid-orange: #fd9f85;		  // col-8
 
 
-// Button Map --------------------------- //
-
-$button-colors: (
-	'default': $prime-color,
-	'success': $btn-green, 
-	'error': $btn-red,
-	'info': $btn-purple,
-	'warning': $btn-orange
-);
-
 /* ============================================= */
 /*              Media Query Breakpoint                      */
 /* ============================================= */
 
-$break-tablet: '(max-width: 768px)';
+$break-tablet: '(min-width: 768px)';
 
 
+/* ============================================= */
+/*              Nav Color Function                      */
+/* ============================================= */
 
-
-
-
+$base: #58e1c1;	
+$base-light: lighten($base, 15%);
 
 
 
